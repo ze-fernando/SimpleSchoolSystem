@@ -1,2 +1,8 @@
-package entities.enums;public class Status {
+package entities.enums;
+
+public enum Status {
+
+    APPROVED,
+    IN_RECOVERY,
+    DISAPPROVED
 }
