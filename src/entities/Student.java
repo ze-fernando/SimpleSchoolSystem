@@ -2,26 +2,37 @@ package entities;
 
 import entities.enums.Status;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class Student {
 
     private String name;
-    private Date birth;
+    private LocalDate birth;
+    private Integer age;
 
-    private List<String> subjects;
+    private String subjects;
 
     private Status status;
+
 
     public Student() {
     }
 
-    public Student(String name, Date birth, List<String> subjects, Status status) {
+    public Student(String name, LocalDate birth, Integer age, String subjects) {
         this.name = name;
         this.birth = birth;
+        this.age = age;
         this.subjects = subjects;
-        this.status = status;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public String getName() {
@@ -32,15 +43,19 @@ public class Student {
         this.name = name;
     }
 
-    public Date getBirth() {
+    public LocalDate getBirth() {
         return birth;
     }
 
-    public void setBirth(Date birth) {
+    public void setBirth(LocalDate birth) {
         this.birth = birth;
     }
 
-    public List<String> getSubjects() {
+    public void setSubjects(String subjects) {
+        this.subjects = subjects;
+    }
+
+    public String getSubjects() {
         return subjects;
     }
 
@@ -50,5 +65,14 @@ public class Student {
 
     public void setStatus(Status status) {
         this.status = status;
+    }
+
+
+    @Override
+    public String toString() {
+        return "name: " + name + "\n"
+                + "birth date: " + birth.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + "\n"
+                + "age:" + age + "\n"
+                + "course: " + subjects + "\n";
     }
 }

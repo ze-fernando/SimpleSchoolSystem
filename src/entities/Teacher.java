@@ -1,18 +1,16 @@
 package entities;
 
-import entities.enums.Subjects;
-
 public class Teacher {
 
     private String name;
     private String gender;
     private Integer age;
-    private Subjects subject;
+    private String subject;
 
     public Teacher() {
     }
 
-    public Teacher(String name, String gender, Integer age, Subjects subject) {
+    public Teacher(String name, String gender, Integer age, String subject) {
         this.name = name;
         this.gender = gender;
         this.age = age;
@@ -43,11 +41,11 @@ public class Teacher {
         this.age = age;
     }
 
-    public Subjects getSubject() {
+    public String getSubject() {
         return subject;
     }
 
-    public void setSubject(Subjects subject) {
+    public void setSubject(String subject) {
         this.subject = subject;
     }
 }
