@@ -6,7 +6,8 @@
 🔹Jdk-17<br>
 🔹Git<br>
 
-You need to clone the project with  ˋ git clone https://github.com/ze-fernando/SchoolSystem ˋ and run ".class" file, and be happy!!
+
+You need to clone the project with  `git clone https://github.com/ze-fernando/SchoolSystem` and run ".class" file, and be happy!!
 
 
 ## Available operations
@@ -27,7 +28,7 @@ You need to clone the project with  ˋ git clone https://github.com/ze-fernando/
 🔹Jdk-17<br>
 🔹Git<br>
 
-Faça um clone do projeto com o comando ˋ git clone https://github.com/ze-fernando/SchoolSystem ˋ depois execute o arquivo ".class", e seja feliz!
+Faça um clone do projeto com o comando `git clone https://github.com/ze-fernando/SchoolSystem` depois execute o arquivo ".class", e seja feliz!
 
 ## Operações disponiveis
 
