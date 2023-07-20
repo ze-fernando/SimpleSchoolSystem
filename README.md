@@ -32,7 +32,7 @@ Faça um clone do projeto com o comando `git clone https://github.com/ze-fernand
 
 ## Operações disponiveis
 
-◽ Matricular alunobr>
+◽ Matricular aluno<br>
 ◽ Cancelar uma matricula<br>
 ◽ Cadastrar professor<br>
 ◽ Remover professor<br>
