@@ -1,5 +1,7 @@
 package entities;
 
+import java.time.format.DateTimeFormatter;
+
 public class Teacher {
 
     private String name;
@@ -47,5 +49,14 @@ public class Teacher {
 
     public void setSubject(String subject) {
         this.subject = subject;
+    }
+
+    @Override
+    public String toString() {
+        return "Student:" + " "
+                +"name: " + name + " "
+                + "gender: " + gender + " "
+                + "age:" + age + " "
+                + "course: " + subject + " ";
     }
 }

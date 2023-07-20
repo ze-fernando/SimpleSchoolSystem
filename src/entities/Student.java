@@ -70,9 +70,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "name: " + name + "\n"
-                + "birth date: " + birth.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + "\n"
-                + "age:" + age + "\n"
-                + "course: " + subjects + "\n";
+        return "Student:" + " "
+                +"name: " + name + " "
+                + "birth date: " + birth.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + " "
+                + "age:" + age + " "
+                + "course: " + subjects + " ";
     }
 }
