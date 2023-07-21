@@ -18,10 +18,6 @@ public class Program {
 
 
         int op, res;
-        studentList.add(new Student("teste", LocalDate.parse("19/12/2501", DateTimeFormatter.ofPattern("dd/MM/yyyy")), 21, "cyber"));
-        teacherList.add(new Teacher("name", "male", 21, "engsoft"));
-        teacherList.add(new Teacher("name2", "female", 21, "engsoft"));
-
 
 
         Scanner in = new Scanner(System.in);
