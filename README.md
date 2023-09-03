@@ -3,8 +3,9 @@
 ### Welcome to the School system with java
 
 ### Requirements
-🔹Jdk-17<br>
-🔹Git<br>
+[JDK](https://www.oracle.com/br/java/technologies/downloads/)
+
+[Git](https://git-scm.com/downloads)
 
 
 You need to clone the project with  `git clone https://github.com/ze-fernando/SchoolSystem` and run ".class" file, and be happy!!
@@ -25,8 +26,9 @@ You need to clone the project with  `git clone https://github.com/ze-fernando/Sc
 ### Bem vindo ao Calculator com java
 
 ### Requisitos
-🔹Jdk-17<br>
-🔹Git<br>
+[JDK](https://www.oracle.com/br/java/technologies/downloads/)
+
+[Git](https://git-scm.com/downloads)
 
 Faça um clone do projeto com o comando `git clone https://github.com/ze-fernando/SchoolSystem` depois execute o arquivo ".class", e seja feliz!
 
